@@ -1,0 +1,318 @@
+/*
+	color yellow: #FFE800;
+	sunflower: #f1c40f;
+
+	[ rgb(231,76,60);
+	 #e74c3c; ]
+
+	color red : #FF1939 , #FF4E2F
+	color red : rgb(255, 25, 57);
+
+	rgba(241,196,15,0.8))
+
+	font-size h1: 48px;
+
+
+	using this #F99C01;
+*/
+
+
+/*---------------------------------*/
+/* BASIC SETUP */
+/*---------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #fff;
+	color: #555;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+}
+
+/*---------------------------------*/
+/* REUSEABLE */
+/*---------------------------------*/
+.row {
+	max-width: 1140px;
+	margin: 0 auto 0 auto;
+}
+
+/* ----- HEADINGS ----- */
+
+h1, 
+h2,
+h3 {	
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 300;	
+}
+
+h1 {
+	color: #fff;
+	margin-bottom: 20px;
+	word-spacing: 4px;
+	font-size: 240%;
+}
+
+h2 {
+	font-size: 180%;
+	word-spacing: 2px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h2:after {
+	display: block;
+	height: 2px;
+	background-color: #F99C01;
+	content: "";
+	width: 100px; 
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+h3 {
+	font-size: 110%;
+}
+
+/* ----- BUTTONS ----- */
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	color: #fff;
+}
+
+.btn-full:link,
+.btn-full:visited {
+	background-color: #F99C01;
+	transition: background-color 0.2s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+	background-color: #e68e00;
+}
+
+/* ----- PARAGRAPHS ----- */
+.long-text {
+	line-height: 145%;
+	font-weight: 300;
+	width: 70%;
+	margin: 0 auto;
+}
+
+/* ----- SECTIONS ----- */
+section {
+	padding: 80px 0;
+}
+
+/* ----- ICONS ----- */
+.icon-big {
+	font-size: 240%;
+	color: #F99C01;
+}
+
+.social-icons {
+    display: block;
+    margin: 4% auto 0 auto;
+    max-width: 30%;
+    text-align: center;
+}
+
+.social-icons i {
+	padding-right: 30px;
+	color: #555;
+}
+
+.ion-social-linkedin,
+.ion-social-github,
+.ion-social-twitter {
+	transition: color 0.;
+}
+
+.ion-social-linkedin:hover {
+	color: #007bb5;
+}
+
+.ion-social-github:hover {
+	color: #24292e;
+}
+
+.ion-social-twitter:hover {
+	color: #55acee;
+}
+
+/*---------------------------------*/
+/* HEADER */
+/*---------------------------------*/
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(img/laptop.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.header-text {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.header-text span {
+	color: #FF4E2F;
+	text-transform: lowercase;
+}
+
+.main-nav {
+	float: right;
+	list-style: none;
+	margin-top: 50px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+	text-decoration: none;
+	color: #fff;
+	padding: 8px 0;
+	border-bottom: 2px solid transparent;
+	font-size: 90%;
+	font-weight: 400;
+	text-transform: uppercase;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+	border-bottom: 2px solid #F99C01;
+}
+
+/*---------------------------------*/
+/* PROFILE */
+/*--------------------------------*/
+.section-profile img {
+	height: 150px;
+	width: auto;
+	border-radius: 50%;
+	float: left;
+	padding-right: 10px;
+}
+
+
+/*---------------------------------*/
+/* SKILSS */
+/*--------------------------------*/
+.skills {
+	width: 70%;
+	margin: auto;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 2% 1% 0;
+}
+
+.col:first-child { margin-left: 0; } 
+
+.box {
+	width: 30.26%;
+	background-color: #fff;
+	text-align: center;
+	padding: 4% 2%;
+	transform: scale(1.04);
+	transition: transform 0.5s;
+}
+
+.box:hover {
+	transform: scale(1);
+}
+
+.section-skills {
+	background-color: #f4f4f4;
+}
+
+.section-skills h3 {
+	margin-top: 10%;
+}
+
+
+
+/*---------------------------------*/
+/* PROFILE */
+/*--------------------------------*/
+.span-1-of-3 {
+	width: 32.26%; 
+}
+
+.span-2-of-3 {
+	width: 66.13%; 
+}
+
+form {
+	width: 40%;
+	margin: 0 auto;
+}
+
+input {
+	padding: 8px;
+}
+
+textarea {
+	height: 100px;
+}
+
+input[type=text],
+input[type=email], 
+textarea {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #F99C01;
+    border: 1px solid #F99C01;
+    margin-right: 15px;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 200px;
+    transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover {
+	background-color: #e68e00;
+}
+
+
+
+/*---------------------------------*/
+/* PROFILE */
+/*--------------------------------*/
+footer {
+	background-color: #333;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	border-top: 2px solid #F99C01;
+}
