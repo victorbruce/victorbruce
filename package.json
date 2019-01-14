@@ -2,7 +2,7 @@
   "name": "victorbruce.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://victorbruce.github.io/portfolio",
+  "homepage": "https://victorbruce.github.io",
   "dependencies": {
     "boostrap": "^2.0.0",
     "bootstrap": "^4.2.1",
@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
