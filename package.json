@@ -2,7 +2,7 @@
   "name": "victorbruce.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://victorbruce.github.io/me",
+  "homepage":"https://victorbruce.github.io/portfolio",
   "dependencies": {
     "boostrap": "^2.0.0",
     "bootstrap": "^4.2.1",
