@@ -2,7 +2,7 @@
   "name": "victorbruce.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://victorbruce.github.io/",
+  "homepage": "https://victorbruce.github.io/victorbruce.github.io",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
