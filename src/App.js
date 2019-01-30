@@ -1,12 +1,16 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-       <h1>Portfolio</h1>
-      </div>
+      <main>
+        <nav>
+          <Link to="/">About</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/blog">Blog</Link>
+        </nav>
+      </main>
     );
   }
 }
