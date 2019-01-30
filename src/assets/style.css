@@ -1,6 +1,6 @@
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 
 body {
     width: 100%;
@@ -21,6 +21,7 @@ body {
 nav {
     padding: 20px 0px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 nav a {
@@ -35,4 +36,65 @@ nav a {
 nav a:hover {
     background: white;
     color: #999;
+}
+
+section {
+    padding-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+}
+
+#home {
+    padding: 20px;
+}
+
+#home img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.profile p {
+    text-align: justify;
+}
+
+.tech-stack h6 {
+    text-align: center;
+}
+
+.tech-stack-card {
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.social-media-icons {
+    margin-top: 20px !important;
+    color: #999;
+}
+
+.fab {
+    padding-right: 15px;
+}
+
+
+@media only screen and (max-width: 599px) {
+    .profile-img {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .brief-intro {
+        text-align: center;
+    }
+
+    .brief-intro h1 {
+        font-size: 33px;
+    }
+
+    .brief-intro h2 {
+        font-size: 14px;
+    }
 }
