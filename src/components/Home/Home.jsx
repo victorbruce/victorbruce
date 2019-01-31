@@ -21,16 +21,41 @@ const About = () => {
               Full Stack Software Engineer
             </Typography>
             <Grid item xs={12} className="social-media-icons">
-              <i className="fab fa-twitter fa-2x" />
-              <i className="fab fa-github fa-2x" />
-              <i className="fab fa-linkedin fa-2x" />
+              <a
+                href="https://twitter.com/Victorbruce3"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-twitter fa-2x" />
+              </a>
+              <a
+                href="https://github.com/victorbruce"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github fa-2x" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/victorbruce3/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin fa-2x" />
+              </a>
+              <a
+                href="mailto:victorbruce82@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fas fa-envelope-square fa-2x" />
+              </a>
             </Grid>
           </Grid>
         </Grid>
       </section>
-      <section>
+      <section className="profile">
         <Grid container>
-          <Grid item xs={12} className="profile">
+          <Grid item xs={12}>
             <Typography variant="h4" gutterBottom>
               Profile
             </Typography>
@@ -114,7 +139,7 @@ const About = () => {
           </Grid>
         </Grid>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
