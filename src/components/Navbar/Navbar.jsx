@@ -6,8 +6,8 @@ const Navbar = () => {
     <nav id="navbar">
       <div className="wrapper">
       <Link to="/">Home</Link>
-      <Link to="/projects">Projects</Link>
-      <Link to="/blog">Blog</Link>
+      {/* <Link to="/projects">Projects</Link>
+      <Link to="/blog">Blog</Link> */}
       </div>
     </nav>
   );
