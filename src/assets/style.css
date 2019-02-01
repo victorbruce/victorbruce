@@ -40,6 +40,11 @@ body {
   padding-right: 15px;
 }
 
+.fa-map-marker-alt {
+  color: #999;
+  padding-right: 5px;
+}
+
 .not-available {
   color: #999;
 }

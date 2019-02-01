@@ -20,6 +20,9 @@ const About = () => {
             <Typography component="h2" variant="h5" gutterBottom>
               Full Stack Software Engineer
             </Typography>
+            <Typography gutterButtom>
+            <i className="fas fa-map-marker-alt"></i>Accra, Ghana
+            </Typography>
             <Grid item xs={12} className="social-media-icons">
               <a
                 href="https://twitter.com/Victorbruce3"
