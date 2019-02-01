@@ -112,28 +112,7 @@ const About = () => {
           <Grid item xs={6} sm={4} className="tech-stack-card">
             <Card>
               <CardContent>
-                <Typography variant="h6">HTML</Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={6} sm={4} className="tech-stack-card">
-            <Card>
-              <CardContent>
-                <Typography variant="h6">CSS</Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={6} sm={4} className="tech-stack-card">
-            <Card>
-              <CardContent>
                 <Typography variant="h6">JavaScript</Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={6} sm={4} className="tech-stack-card">
-            <Card>
-              <CardContent>
-                <Typography variant="h6">PHP</Typography>
               </CardContent>
             </Card>
           </Grid>
