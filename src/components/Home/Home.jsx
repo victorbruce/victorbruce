@@ -20,8 +20,9 @@ const About = () => {
             <Typography component="h2" variant="h5" gutterBottom>
               Full Stack Software Engineer
             </Typography>
-            <Typography gutterButtom>
-            <i className="fas fa-map-marker-alt"></i>Accra, Ghana
+            <Typography gutterBottom>
+              <i className="fas fa-map-marker-alt" />
+              Accra, Ghana
             </Typography>
             <Grid item xs={12} className="social-media-icons">
               <a
@@ -80,20 +81,9 @@ const About = () => {
           <Grid item xs={6} sm={4} className="tech-stack-card">
             <Card>
               <CardContent>
-                <Typography variant="h6">NodeJs</Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={6} sm={4} className="tech-stack-card">
-            <Card>
-              <CardContent>
-                <Typography variant="h6">Express</Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item xs={6} sm={4} className="tech-stack-card">
-            <Card>
-              <CardContent>
+                <Typography component="p">
+                  <i className="fas fa-database" />
+                </Typography>
                 <Typography variant="h6">MongoDB</Typography>
               </CardContent>
             </Card>
@@ -101,13 +91,19 @@ const About = () => {
           <Grid item xs={6} sm={4} className="tech-stack-card">
             <Card>
               <CardContent>
-                <Typography variant="h6">MYSQL</Typography>
+                <Typography component="p">
+                  <i className="fab fa-node-js" />
+                </Typography>
+                <Typography variant="h6">Express</Typography>
               </CardContent>
             </Card>
           </Grid>
           <Grid item xs={6} sm={4} className="tech-stack-card">
             <Card>
               <CardContent>
+                <Typography component="p">
+                  <i className="fab fa-react" />
+                </Typography>
                 <Typography variant="h6">ReactJs</Typography>
               </CardContent>
             </Card>
@@ -115,7 +111,32 @@ const About = () => {
           <Grid item xs={6} sm={4} className="tech-stack-card">
             <Card>
               <CardContent>
+                <Typography component="p">
+                  <i className="fab fa-node" />
+                </Typography>
+                <Typography component="h6" variant="h6">
+                  NodeJs
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={6} sm={4} className="tech-stack-card">
+            <Card>
+              <CardContent>
+                <Typography component="p">
+                  <i className="fab fa-js-square" />
+                </Typography>
                 <Typography variant="h6">JavaScript</Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+          <Grid item xs={6} sm={4} className="tech-stack-card">
+            <Card>
+              <CardContent>
+                <Typography component="p">
+                  <i className="fas fa-database" />
+                </Typography>
+                <Typography variant="h6">MYSQL</Typography>
               </CardContent>
             </Card>
           </Grid>

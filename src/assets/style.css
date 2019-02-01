@@ -80,6 +80,11 @@ section {
   padding-bottom: 40px;
 }
 
+.tech-stack p {
+  text-align: center;
+  font-size: 30px !important;
+}
+
 /****************************
     HOME
 ****************************/
@@ -101,6 +106,10 @@ section {
 
 .tech-stack h6 {
   text-align: center;
+}
+
+.tech-stack p {
+  font-size: 22px;
 }
 
 .tech-stack-card {
