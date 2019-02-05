@@ -145,6 +145,10 @@ footer {
   text-align: center;
 }
 
+footer span {
+  color: #777;
+}
+
 /****************************
     RESPONSIVENESS
 ****************************/
