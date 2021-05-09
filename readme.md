@@ -2,7 +2,7 @@
 
 #### A Software Engineer(Web and Mobile) from Ghana🇬🇭
 
-I enjoy building web and mobile applications using languages and frameworks such as Javascript, Typescript, React, React Native, Redux, and Firebase. I also love sharing my experience and knowledge through blogging and designing in general(wireframing, UI, UX) using **Figma**.
+I enjoy building web and mobile applications using languages and frameworks such as Javascript, Typescript, React, React Native, Redux, and Firebase. I also love sharing my experience and knowledge through blogging(<a href="https://victorbruce82.medium.com/">writing</a> and <a href="https://www.youtube.com/channel/UCQcMmM1RV0A3CgfeSSVpxyw">video tutorials</a>) and designing in general(wireframing, UI, UX) using **Figma**.
 
 **Skills:** HTML5, CSS3, Sass, Javascript, Typescript, React, Redux, React Native.
 
