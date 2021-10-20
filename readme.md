@@ -34,3 +34,7 @@ I enjoy building web and mobile applications using languages and frameworks such
 ![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=victorbruce)
 
 ![Profile views](https://gpvc.arturio.dev/victorbruce)
+
+**Visitor Count:**
+
+![Visitor Count](https://profile-counter.glitch.me/victorbruce/count.svg)
