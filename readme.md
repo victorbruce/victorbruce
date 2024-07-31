@@ -1,6 +1,15 @@
-# Frontend Developer
+# Hi! I'm Victor 👋
 
-I am Victor, a frontend developer from Ghana 🇬🇭.
+I have a passion for Web Development, particularly **Frontend** development. My journey began a some years ago when I came across [Jon Duckett's _HTML & CSS: **Design and Build Website**_](https://htmlandcssbook.com/) book. Since then, I've been dedicated to learning and creating engaging **web and mobile experiences**.
+
+
+- 👨🏽‍💻 I'm currently building custom digital solutions for busineses as a **contractor/freelancer**.
+
+- 📚 I'm currently learning **backend development and trying out new languages and frameworks**.
+
+- ✍️ You can follow and read my **blog posts** on [medium.com/@victorbruce82](https://medium.com/@victorbruce82)
+
+- 💡 **Fun Fact**: I love diving into design trends and experimenting with them in my free time. When not coding, you'll probably find me at the beach or exploring new locations.
 
 
 
