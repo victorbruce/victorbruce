@@ -1,6 +1,6 @@
 # Hi! I'm Victor 👋
 
-I have a passion for Web Development, particularly **Frontend** development. My journey began a some years ago when I came across [Jon Duckett's _HTML & CSS: **Design and Build Website**_](https://htmlandcssbook.com/) book. Since then, I've been dedicated to learning and creating engaging **web and mobile experiences**.
+I have a passion for Web Development, particularly **Frontend** development. My journey began some years ago when I came across _[Jon Duckett's HTML & CSS: **Design and Build Website**](https://htmlandcssbook.com/)_ book. Since then, I've been dedicated to embracing new challenges, learning and creating engaging **web and mobile experiences**.
 
 
 - 👨🏽‍💻 I'm currently building custom digital solutions for busineses as a **contractor/freelancer**.
